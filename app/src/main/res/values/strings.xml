@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">Indonesian Heroes</string>
 
-    <string name="heroes_name">Indonesian Heroes</string>
+    <string name="heroes_name">Hero Name</string>
     <string name="desc">Description</string>
     <string name="about">About</string>
+    <string name="details">...</string>
+    <string name="self_name">Ricky Fadel M</string>
+    <string name="self_bangkit_mail">a169dsx2750@bangkit.academy</string>
+    <string name="self_img">https://rickyslash.my.id/wp-content/uploads/2023/01/sm-rickyslash-1-c-480x480.jpg</string>
 
     <string-array name="data_name">
         <item>Ahmad Dahlan</item>
@@ -15,6 +19,7 @@
         <item>Soedirman</item>
         <item>Soekarno</item>
         <item>Soepomo</item>
+        <item>Tan Malaka</item>
     </string-array>
 
     <string-array name="data_description">
@@ -27,6 +32,7 @@
         <item>Jenderal Besar Raden Soedirman (EYD: Sudirman; lahir 24 Januari 1916 – meninggal 29 Januari 1950 pada umur 34 tahun) adalah seorang perwira tinggi Indonesia pada masa Revolusi Nasional Indonesia. Menjadi panglima besar Tentara Nasional Indonesia pertama, ia secara luas terus dihormati di Indonesia. Terlahir dari pasangan rakyat biasa di Purbalingga, Hindia Belanda, Soedirman diadopsi oleh pamannya yang seorang priyayi. Setelah keluarganya pindah ke Cilacap pada tahun 1916, Soedirman tumbuh menjadi seorang siswa rajin; ia sangat aktif dalam kegiatan ekstrakurikuler, termasuk mengikuti program kepanduan yang dijalankan oleh organisasi Islam Muhammadiyah. Saat di sekolah menengah, Soedirman mulai menunjukkan kemampuannya dalam memimpin dan berorganisasi, dan dihormati oleh masyarakat karena ketaatannya pada Islam. Setelah berhenti kuliah keguruan, pada 1936 ia mulai bekerja sebagai seorang guru, dan kemudian menjadi kepala sekolah, di sekolah dasar Muhammadiyah; ia juga aktif dalam kegiatan Muhammadiyah lainnya dan menjadi pemimpin Kelompok Pemuda Muhammadiyah pada tahun 1937. Setelah Jepang menduduki Hindia Belanda pada 1942, Soedirman tetap mengajar. Pada tahun 1944, ia bergabung dengan tentara Pembela Tanah Air (PETA) yang disponsori Jepang, menjabat sebagai komandan batalion di Banyumas. Selama menjabat, Soedirman bersama rekannya sesama prajurit melakukan pemberontakan, namun kemudian diasingkan ke Bogor.</item>
         <item>Dr.(H.C.) Ir. H. Soekarno (ER, EYD: Sukarno, nama lahir: Koesno Sosrodihardjo) (lahir di Surabaya, Jawa Timur, 6 Juni 1901 – meninggal di Jakarta, 21 Juni 1970 pada umur 69 tahun) adalah Presiden pertama Republik Indonesia yang menjabat pada periode 1945–1967. Ia memainkan peranan penting dalam memerdekakan bangsa Indonesia dari penjajahan Belanda. Ia adalah Proklamator Kemerdekaan Indonesia (bersama dengan Mohammad Hatta) yang terjadi pada tanggal 17 Agustus 1945. Soekarno adalah yang pertama kali mencetuskan konsep mengenai Pancasila sebagai dasar negara Indonesia dan ia sendiri yang menamainya.</item>
         <item>Prof. Mr. Dr. Soepomo (Ejaan Soewandi: Supomo; lahir di Sukoharjo, Jawa Tengah, 22 Januari 1903 – meninggal di Jakarta, 12 September 1958 pada umur 55 tahun) adalah seorang pahlawan nasional Indonesia. Soepomo dikenal sebagai arsitek Undang-undang Dasar 1945, bersama dengan Muhammad Yamin dan Soekarno.</item>
+        <item>Tan Malaka adalah sosok laki laki kelahiran Suliki, Sumatra Barat pada tanggal 02 Juni 1897 dengan nama asli Ibrahim gelar Datuk Tan Malaka. Anak dari pasangan Rasad Caniago dan Sinah Sinabur ini merupakan tamatan Kweekschool Bukit Tinggi pada umur 16 tahun di tahun 1913, dan dilanjutkan ke Rijks Kweekschool di Haarlem, Belanda. Setelah lulus dari Rijks Kweekschool, Tan Malaka kembali ke Indonesia dan mengajar di sebuah perkebunan di Deli, dari sinilah Tan Malaka menemukan ketimpangan sosial di lingkungan sekitar dan muncullah sifat radikal Tan Malaka.</item>
     </string-array>
 
     <string-array name="data_photo">
