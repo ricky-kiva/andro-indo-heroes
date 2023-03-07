@@ -26,7 +26,7 @@ class ListHeroAdapter(private val listHero: ArrayList<Hero>): RecyclerView.Adapt
     override fun onBindViewHolder(holder: ListHeroAdapter.ListViewHolder, position: Int) {
         val (name, desc, photo) = listHero[position]
         holder.binding.tvItemName.text = name
-        holder.binding.tvItemName.text = desc
+        holder.binding.tvItemDesc.text = desc
 
         Glide.with(holder.itemView.context)
             .load(photo)
