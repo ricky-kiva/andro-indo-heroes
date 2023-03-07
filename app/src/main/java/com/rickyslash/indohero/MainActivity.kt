@@ -1,5 +1,6 @@
 package com.rickyslash.indohero
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -12,7 +13,11 @@ class MainActivity : AppCompatActivity() {
     private val heroList = ArrayList<Hero>()
 
     private fun showSelectedHero(hero: Hero) {
-        Toast.makeText(this, "You've chosen ${hero.name}", Toast.LENGTH_SHORT).show()
+        val moveHeroDetailsIntent = Intent(this@MainActivity, HeroDetailsActivity::class.java)
+        val hero = Hero(hero.name, hero.desc, hero.photo)
+
+        moveHeroDetailsIntent.putExtra(HeroDetailsActivity.EXTRA_HERO, hero)
+        startActivity(moveHeroDetailsIntent)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,6 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.rvHeroes.setHasFixedSize(true)
         heroList.addAll(getListHeroes())
+        showRecyclerList()
     }
 
     private fun getListHeroes(): ArrayList<Hero> {
