@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.rickyslash.indohero.databinding.ActivityMainBinding
 
@@ -16,9 +15,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun showSelectedHero(hero: Hero) {
         val moveHeroDetailsIntent = Intent(this@MainActivity, HeroDetailsActivity::class.java)
-        val hero = Hero(hero.name, hero.desc, hero.photo)
 
-        moveHeroDetailsIntent.putExtra(HeroDetailsActivity.EXTRA_HERO, hero)
+        moveHeroDetailsIntent.putExtra(HeroDetailsActivity.EXTRA_HERO, Hero(hero.name, hero.desc, hero.photo))
         startActivity(moveHeroDetailsIntent)
     }
 

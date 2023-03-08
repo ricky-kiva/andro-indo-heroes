@@ -16,14 +16,14 @@ class ListHeroAdapter(private val listHero: ArrayList<Hero>): RecyclerView.Adapt
 
     class ListViewHolder(var binding: LayoutItemHeroBinding): RecyclerView.ViewHolder(binding.root)
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListHeroAdapter.ListViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
         val binding = LayoutItemHeroBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ListViewHolder(binding)
     }
 
     override fun getItemCount(): Int = listHero.size
 
-    override fun onBindViewHolder(holder: ListHeroAdapter.ListViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
         val (name, desc, photo) = listHero[position]
         holder.binding.tvItemName.text = name
         holder.binding.tvItemDesc.text = desc
