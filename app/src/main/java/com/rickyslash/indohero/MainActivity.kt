@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     private fun showSelectedHero(hero: Hero) {
         val moveHeroDetailsIntent = Intent(this@MainActivity, HeroDetailsActivity::class.java)
 
-        moveHeroDetailsIntent.putExtra(HeroDetailsActivity.EXTRA_HERO, Hero(hero.name, hero.desc, hero.photo))
+        moveHeroDetailsIntent.putExtra(HeroDetailsActivity.EXTRA_HERO, Hero(hero.name, hero.desc, hero.photo, hero.birthdate, hero.birthplace))
         startActivity(moveHeroDetailsIntent)
     }
 
@@ -50,10 +50,12 @@ class MainActivity : AppCompatActivity() {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDesc = resources.getStringArray(R.array.data_description)
         val dataPhoto = resources.getStringArray(R.array.data_photo)
+        val dataBirthdate = resources.getStringArray(R.array.data_birthdate)
+        val dataBirthplace = resources.getStringArray(R.array.data_birthplace)
         val listHero = ArrayList<Hero>()
 
         for (i in dataName.indices) {
-            val hero = Hero(dataName[i], dataDesc[i], dataPhoto[i])
+            val hero = Hero(dataName[i], dataDesc[i], dataPhoto[i], dataBirthdate[i], dataBirthplace[i])
             listHero.add(hero)
         }
 

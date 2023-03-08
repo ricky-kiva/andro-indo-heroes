@@ -27,6 +27,8 @@ class HeroDetailsActivity : AppCompatActivity() {
         if (hero != null) {
             binding.detailsName.text = hero.name
             binding.detailsDesc.text = hero.desc
+            binding.detailsBirthdate.text = hero.birthdate
+            binding.detailsBirthplace.text = hero.birthplace
             Glide.with(this)
                 .load(hero.photo)
                 .into(binding.detailsImg)
